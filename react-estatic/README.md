@@ -1,4 +1,66 @@
-# Getting Started with Create React App
+1
+- Criar projetos usando Create React App;
+- Vimos como podemos usar templates, como typescript para criar projetos com CRA e depois removemos o que não será utilizado neste projeto;
+- Usar CSS Modules com TypeScript e Sass;
+- Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules.
+
+2
+- Importar um svg;
+Vimos como o webpack entende aquela string que fornecemos ao src da tag img e porque não funciona, então, aprendemos como importar um svg da forma correta.
+
+- Utilizar um svg como componente;
+Melhoramos a nossa logo alterando a tag img por um componente que se torna um svg no final.
+
+- Imports absolutos;
+Aprendemos como configurar e utilizar os imports absolutos para evitar voltar muitas pastas ao importar um arquivo.
+
+- Utilizar a biblioteca reset css para resetar o css;
+Resetamos os estilos da nossa página utilizando uma biblioteca chamada reset.css que nos ajuda a limpar os estilos padrões de cada elemento de acordo com cada navegador.
+
+
+3
+- Importar fontes externas
+Aprendemos como importar fontes externas no nosso projeto utilizando o google fonts.
+- Utilizar o normalize.css
+Utilizamos o normalize.css para padronizar os estilos da página html em cada navegador.
+- bUtilizar ícones
+Aprendemos como é fácil utilizar ícones com a biblioteca react-icons.
+- Ignorar arquivos para build
+Vimos como ignorar arquivos no momentos de build para que sejam utilizados apenas quando os chamar.
+- bCriar variáveis css
+Criamos variáveis css para nos auxiliar na padronização dos estilos da página, evitando repetição e facilitando na manutenção de código.
+
+
+4
+Inferir o tipo de um objeto
+- O operador typeof nos permite inferir a tipagem de um objeto sem a necessidade de criar uma interface.
+Manipulação de objetos
+- Utilizamos [] em volta do nome da chave de um objeto quando o valor da chave é dinâmico.
+Biblioteca classnames
+- Essa biblioteca nos permite concatenar classes CSS utilizando sintaxe de objetos.
+
+
+5
+- Renderizar uma lista de componentes
+Podemos utilizar o spread operator para não precisar passar as props manualmente quando temos total controle do componente.
+- Utilizar a pasta public
+Arquivos estáticos que devem ser referenciados dinamicamente precisam estar dentro dessa pasta.
+- Gerar os arquivos utilizados em produção
+Com o comando npm run build podemos verificar quais arquivos estarão presentes no ambiente de produção.
+
+
+6
+- Buscar com expressão regular
+Utilizar expressões regulares em buscas de textos.
+- Manipular elementos de uma lista
+Alterar a quantidade ou ordenar os elementos de uma lista com métodos filter e sort.
+- Tipar o useState
+Escrever useState<Tipo> para tipar o state e o setState.
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,4 +105,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
